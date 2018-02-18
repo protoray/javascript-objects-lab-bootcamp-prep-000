@@ -4,7 +4,6 @@ function updateObjectWithKeyAndValue(object, key, value)
 {
   var newRecipe = object.assign({}, object);
   newRecipe[`${key}`] = value;
-  
-  return object;
+  return newRecipe;
   
 }
